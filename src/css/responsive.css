@@ -1,29 +1,39 @@
 @media (max-width: 1120px){
-    .container{
-        display: flex;
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-personagens{
         flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
     }
-    .container .personagem-selecionado{
-        margin-top: -120px;
-        margin-bottom: -30px;
-        margin-right: 40px;
+
+    .selecao-de-personagens .personagens{
+        margin-top: 37px;
     }
-    .cabecalho img{
-        max-width: 80%;
+
+    .selecao-de-personagens .personagens .titulo{
+        font-size: 15px;
     }
-    .container .personagem-selecionado img{
-        max-width: 70%;
+
+    .selecao-de-personagens .lista-de-personagens{
+        gap: 9px
     }
-    .container .selecao-personagens .selecao img{
-        width: 80.27px;
-        height: 124px;
-        margin: -5px;
+
+    .selecao-de-personagens .personagem img{
+        width: 80px;
     }
-    .container .selecao-personagens{
-        max-width: 390px;
-        text-align: center;
+
+    .personagem-selecionado .personagem-grande{
+        width: 350px;
+        height: 350px;
     }
-    .container .selecao-personagens h2{
-        font-size: -5px;
+
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
     }
+
 }
